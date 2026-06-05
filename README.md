@@ -125,8 +125,6 @@ show ip
 ### PC víctima recibe GW falso
 ![Durante](spoofing3.png)
 
-### Servidor rogue respondiendo
-![Rogue](spoofing4.png)
 
 ---
 
@@ -158,6 +156,10 @@ PC víctima pide IP:
 dhcp
 show ip
 GATEWAY: 20.21.11.1 ← router legítimo ✓
+
+
+### Verificar DHCP snooping
+![Rogue](spoofing4.png)
 
 ### Verificación contramedida
 ![Contramedida](spoofing5.png)
